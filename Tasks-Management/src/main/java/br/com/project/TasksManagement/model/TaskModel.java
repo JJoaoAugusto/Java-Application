@@ -69,4 +69,12 @@ public class TaskModel {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public UserModel getUser() {
+        return user;
+    }
+
+    public void setUser(UserModel user) {
+        this.user = user;
+    }
 }

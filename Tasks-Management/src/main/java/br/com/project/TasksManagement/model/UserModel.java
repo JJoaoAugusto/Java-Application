@@ -25,7 +25,6 @@ public class UserModel {
     }
 
     public UserModel(String name, String cpf, String email, String password, String type) {
-        this.name = name;
         this.password = password;
     }
 
@@ -52,6 +51,8 @@ public class UserModel {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    
 
     @Override
     public String toString() {
